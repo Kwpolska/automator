@@ -1,0 +1,8 @@
+#!/bin/zsh
+if [[ "$@" == "" ]]; then
+    echo "usage: mkramdisk sizeInMB"
+    echo "Requires macOS"
+    exit 1
+fi
+size=$[2048*$1]
+diskutil erasevolume HFS+ 'RAMDisk' `hdiutil attach -nomount ram://$size`
