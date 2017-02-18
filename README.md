@@ -22,6 +22,12 @@ The TTS services have AppleScript sources available in the `sources` folder.
 The voice list is customizable in the scripts (inside the service/`.workflow`
 file)
 
+Usage
+-----
+
+Clone or download this repository. You can double-click on Services to install
+them, and put apps wherever you want.
+
 License
 -------
 
