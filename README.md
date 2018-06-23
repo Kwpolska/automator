@@ -13,6 +13,10 @@ Apps
 Services
 --------
 
+* Normalize clipboard (NFC) — convert clipboard to NFC-encoded text (ó instead
+  of o + accent)
+* Normalize selection (NFC) — convert selection to NFC-encoded text (ó instead
+  of o + accent)
 * Text to Speech… — speaks selection with an user-selected voice
 * Text to Speech File… — speaks selection with an user-selected voice, but
   saves to AIFF file
